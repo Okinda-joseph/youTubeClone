@@ -1,0 +1,101 @@
+.js-thumbnail-picture {
+  width: 100%;
+  border-radius: 10px;
+
+  /*width: 300px;*/
+}
+
+.js-video-title {
+  margin-top: 0;
+  margin-bottom: 10px;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 20px;
+}
+
+.js-video-author {
+  margin-bottom: 4px;
+  font-size: 12px;
+  color: rgb(96, 96, 96);
+}
+.js-video-stats {
+  font-size: 12px;
+  color: rgb(96, 96, 96);
+
+}
+/*
+
+.js-video-preview {
+  display: inline-block;
+  width: 300px;
+}
+
+.js-channel-picture {
+  display: inline-block;
+  width: 50px;
+  vertical-align: top;
+}
+*/
+
+.js-profile-picture {
+  width: 40px;
+  border-radius: 20px;
+}
+/*
+.js-video-info {
+  display: inline-block;
+  width: 250px;
+}
+*/
+
+.js-video-information-grid {
+  display: grid;
+  grid-template-columns: 50px 1fr;
+}
+
+.js-video-information {
+  margin-top: 10px;
+}
+
+.js-video-grids {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  column-gap: 15px;
+  row-gap: 40px;
+}
+
+@media (max-width: 750px) {
+  .js-video-grids {
+    grid-template-columns: 1fr fr;
+  }
+}
+
+@media (min-width: 751px) and (max-width: 999px) {
+  .js-video-grids {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+}
+
+@media (min-width: 1000px) {
+  .js-video-grids {
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+  }
+}
+
+.js-thumbnail-row {
+  position: relative;
+}
+
+.js-video-time {
+  position: absolute;
+  background-color: black;
+  color: white;
+  font-size: 14px;
+  bottom: 8px;
+  right: 2px;
+  padding-top: 2px;
+  padding-bottom: 2px;
+  padding-left: 4px;
+  padding-right:4px;
+  border-radius: 5px;
+}

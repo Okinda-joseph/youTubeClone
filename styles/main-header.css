@@ -1,0 +1,214 @@
+.js-main-header {
+  height: 55px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  background-color: white;
+  z-index: 100;
+  border-bottom-width: 1px;
+  border-bottom-style: solid;
+  border-bottom-color: rgb(192, 192, 192);
+  
+}
+
+.js-left-section {
+  margin-right: 70px;
+  display: flex;
+  align-items: center;
+}
+
+.js-hamburger-menu {
+  height: 24px;
+  margin-left: 24px;
+}
+
+.js-youtube-logo {
+  height: 24px;
+  margin-left: 20px;
+}
+
+.js-middle-section {
+  flex: 1;
+  margin-right: 35px;
+  display: flex;
+  align-items: center;
+}
+
+.js-search-bar {
+ height: 36px;
+ flex: 1;
+ border-width: 1px;
+ border-style: solid;
+ border-color: rgb(192, 192, 192);
+ border-radius: 2px;
+ padding-left: 10px;
+ font-size: 16px;
+ box-shadow: inset 1px 2px 3px rgba(0, 0, 0, 0.05);
+ max-width: 500px;
+ width: 0;
+
+}
+
+.js-search-bar::placeholder {
+  font-family: Roboto, Arial;
+  font-size: 16px;
+  display: flex;
+  align-items: center;
+}
+
+.js-search-button {
+  height: 40px;
+  width: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: -1px;
+  border-width: 1px;
+  border-style: solid;
+  border-color: rgb(192, 192, 192);
+  border-radius: 2px;
+  margin-right: 8px;
+  background-color: rgb(240, 240, 240);
+  position: relative;
+}
+
+.js-tooltip {
+  position: absolute;
+  background-color: gray;
+  color: white;
+  font-size: 12px;
+  padding-top: 4px;
+  padding-bottom: 4px;
+  padding-left: 6px;
+  padding-right: 6px;
+  bottom: -30px;
+  border-radius: 4px;
+  opacity: 0;
+  transition: opacity 0.5s;
+  pointer-events: none;
+  white-space: nowrap;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.js-search-button:hover .js-tooltip {
+  opacity: 1;
+}
+
+.js-search-icon {
+  height: 24px;
+}
+
+.js-voice-search-button {
+  height: 40px;
+  width: 40px;
+  border: none;
+  border-radius: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(240, 240, 240);
+  position: relative;
+}
+
+.js-voice-search-button:hover .js-tooltip {
+  opacity: 1;
+}
+
+.js-voice-search-icon {
+  height: 24px;
+}
+
+.js-right-section {
+  width: 180px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-right: 24px;
+  flex-shrink: 0;
+}
+
+.js-upload-icon {
+  height: 24px;
+  
+}
+
+.js-youtube-apps-icon {
+  height: 24px;
+}
+
+.js-notifications-icon {
+  height: 24px;
+}
+
+.js-current-user-picture {
+  height: 24px;
+  width: 24px;
+  border-radius: 16px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.js-upload-icon-menu {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  }
+
+.js-upload-icon-menu:hover .js-tooltip {
+  opacity: 1;
+}
+
+.js-youtube-apps-icon-menu {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.js-youtube-apps-icon-menu:hover .js-tooltip {
+  opacity: 1;
+}
+
+.js-notifications-container-menu {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.js-notifications-container-menu:hover .js-tooltip {
+  opacity: 1;
+}
+
+.js-notifications-count {
+  position: absolute;
+  background-color: rgb(200, 0, 0);
+  color: white;
+  font-size: 10px;
+  top: -6px;
+  right: -8px;
+  padding-top: 4px;
+  padding-bottom: 4px;
+  padding-left: 4px;
+  padding-right: 4px;
+  border-radius: 10px;
+}
+
+.js-current-user-container {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.js-current-user-container:hover .js-tooltip {
+  opacity: 1;
+}
